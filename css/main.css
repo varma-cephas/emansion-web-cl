@@ -1,0 +1,283 @@
+:root{
+    --primary-color: #B40909;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 18rem 0 18rem;
+}
+
+nav img{
+    max-width: 3.1%;
+}
+
+.seal-container{
+    text-align: center;
+    padding-top: 1.7rem;
+}
+
+.seal-container a{
+    text-decoration: none;
+}
+
+.seal-container a p{
+    padding: 0;
+    color: #707070;
+}
+
+nav ul{
+    padding: 0.8rem 0 0.8rem 0.7rem;
+    border: 2px solid var(--primary-color);
+    background: var(--primary-color);
+    display: flex;
+    gap: 3.1rem;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#hero-section{
+    display: flex;
+    padding: 1.7rem 0 3.2rem 0;
+    /* border: 2px solid palegoldenrod; */
+}
+
+#hero-section div{
+    padding: 0 1.6rem 0 1.6rem;
+    background: #F2F2F2;
+}
+
+#hero-section div h3{
+    font-size: 2rem;
+}
+
+#hero-section div h3 #hero-section-text-style{
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 0.5rem;
+}   
+
+#hero-section div p{
+    font-size: 1.2rem;
+}
+
+#main-section{
+    display: flex;
+    margin-bottom: 3.2rem;
+}
+
+#main-section div img{
+    max-width: 50%;
+}
+
+#main-section div h5{
+    /* border: 2px solid rebeccapurple; */
+    margin: 0;
+    padding: 0;
+}
+
+#main-section div p{
+    margin: 0;
+    padding: 0;
+}
+
+#vice-president-title{
+    /* border: 2px solid hotpink; */
+    max-width: fit-content;
+    padding: 0.5rem 0.9rem 0.5rem 0.3rem;
+    text-align: center;
+    background: #F2F2F2;
+}
+
+#main-section article{
+    border-left: 2px solid #F2F2F2;
+    border-right: 2px solid #F2F2F2;
+    padding: 0 1.6rem 0 1.6rem;
+}
+
+/* .press-release{
+    border: 2px solid pink;
+} */
+
+.press-release a{
+    color: black;
+    text-decoration: none;
+}
+
+.press-release h4{
+    margin: 0;
+    padding: 0.3rem 0 1.7rem 0;
+}
+
+.press-release p{
+    font-size: 0.9rem;
+    color: #6C6A6A;
+}
+
+.press-release a:hover{
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+#main-section aside{
+    /* border: 2px solid yellow; */
+    padding-left: 1.5rem;
+}
+
+#main-section aside h3 .recent-document{
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 0.7rem;
+    border-width: 0.2rem;
+}
+
+#main-section article h3 .news-press{
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 0.5rem;
+    border-width: 0.2rem;
+}
+
+.document-aside-container{
+    border-bottom: 2px solid #F2F2F2;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+#main-section aside p{
+    font-size: 0.72rem;
+    color: #6C6A6A;
+}
+
+.new-press-container{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+#vice-president-title h5{
+    font-size: 0.7rem;
+}
+
+#image-slider{
+    border: 2px solid orange;
+}
+
+#more-info-section{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 12rem;
+}
+
+#more-info-section img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.more-info-component{
+    border: 2px solid #F2F2F2;
+    background: #F2F2F2;
+    border-radius: 10px;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    padding: 2.8rem 20rem 2.8rem 1rem;
+}
+.more-info-component svg{
+    max-width: 18%;
+}
+
+.more-info-component a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.more-info-component a:hover{
+    text-decoration: underline;
+}
+
+
+/* #image-slider .circle{
+    border: 2px solid red;
+    padding: 0.2rem;
+    height: 10%;
+    border-radius: 100px;
+} */
+
+footer{
+    background: #051E3B;
+    color: white;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+footer #footer-seal{
+    max-width: 5.5%;
+    margin-top: -2rem;
+}
+
+
+.footer-seal-container{
+    /* border: 2px solid green; */
+    text-align: center;
+    padding-bottom: 5.5rem;
+}
+
+#footer-nav-container{
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    padding-left: 1.1rem;
+}
+
+#footer-nav-container .emansion-info ul {
+    /* border: 2px solid yellow; */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-nav-parts ul{
+    display: grid;    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+}
+
+.footer-nav-parts ul a:hover{
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.footer-nav-parts img{
+    max-width: 1%;
+}
+.social-icons-footer svg{
+    max-width: 2.5%;
+    padding-left: 1.1rem;
+    padding-top: 2.8rem;
+    padding-bottom: 10rem;
+}
+
+
